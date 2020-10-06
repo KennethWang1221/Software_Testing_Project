@@ -1,0 +1,114 @@
+Failed to get information of process Id: 0
+Failed to get information of process Id: 4
+Failed to get information of process Id: 372
+Failed to get information of process Id: 536
+Failed to get information of process Id: 616
+Failed to get information of process Id: 628
+Failed to get information of process Id: 684
+Failed to get information of process Id: 708
+Failed to get information of process Id: 748
+Failed to get information of process Id: 756
+Failed to get information of process Id: 856
+Failed to get information of process Id: 944
+Failed to get information of process Id: 1028
+Failed to get information of process Id: 1072
+Failed to get information of process Id: 1108
+Failed to get information of process Id: 1260
+Failed to get information of process Id: 1348
+Failed to get information of process Id: 1432
+PROCESS 0x670       dwm.exe
+PROCESS 0x678       explorer.exe
+Failed to get information of process Id: 1692
+Failed to get information of process Id: 1720
+Failed to get information of process Id: 1784
+PROCESS 0x700       taskhost.exe
+Failed to get information of process Id: 1828
+Failed to get information of process Id: 1848
+Failed to get information of process Id: 1988
+Failed to get information of process Id: 412
+Failed to get information of process Id: 608
+Failed to get information of process Id: 2108
+Failed to get information of process Id: 2160
+Failed to get information of process Id: 2300
+PROCESS 0x924       iusb3mon.exe
+PROCESS 0x93c       sqlmangr.exe
+Failed to get information of process Id: 2604
+Failed to get information of process Id: 2764
+Failed to get information of process Id: 2784
+Failed to get information of process Id: 2792
+Failed to get information of process Id: 2800
+Failed to get information of process Id: 2876
+PROCESS 0xbac       studentmain.exe
+Failed to get information of process Id: 3024
+Failed to get information of process Id: 3740
+Failed to get information of process Id: 1204
+Failed to get information of process Id: 2504
+PROCESS 0xec0       thunderplatform.exe
+Failed to get information of process Id: 3012
+Failed to get information of process Id: 3956
+Failed to get information of process Id: 2252
+Failed to get information of process Id: 5016
+PROCESS 0x1440      winword.exe
+PROCESS 0x14a8      imecmnt.exe
+PROCESS 0x1588      xigui32.exe
+PROCESS 0x500       chrome.exe
+PROCESS 0x1244      chrome.exe
+PROCESS 0x1370      chrome.exe
+PROCESS 0x156c      chrome.exe
+PROCESS 0x172c      chrome.exe
+PROCESS 0x774       chrome.exe
+PROCESS 0x498       vugen.exe
+Failed to get information of process Id: 2756
+Failed to get information of process Id: 3624
+PROCESS 0xb80       360chrome.exe
+PROCESS 0xe80       360chrome.exe
+PROCESS 0x1768      360chrome.exe
+PROCESS 0x310       360chrome.exe
+		8.3.0.120                     D:\Program Files\360Chrome\Chrome\Application\360chrome.exe
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\SYSTEM32\ntdll.dll
+		6.1.7601.17965 (win7sp1_gdr.121004-0333)C:\Windows\system32\kernel32.dll
+		6.1.7601.17965 (win7sp1_gdr.121004-0333)C:\Windows\system32\KERNELBASE.dll
+		8.3.0.120                     D:\Program Files\360Chrome\Chrome\Application\8.3.0.120\chrome_elf.dll
+		6.1.7601.23915 (win7sp1_ldr.170913-0600)C:\Windows\system32\ADVAPI32.dll
+		7.0.7601.17744 (win7sp1_gdr.111215-1535)C:\Windows\system32\msvcrt.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\SYSTEM32\sechost.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\RPCRT4.dll
+		6.1.7601.17647 (win7sp1_gdr.110708-1503)C:\Windows\system32\VERSION.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\PSAPI.DLL
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\WINMM.dll
+		6.1.7601.17514 (win7sp1_rtm.101119-1850)C:\Windows\system32\USER32.dll
+		6.1.7601.23914 (win7sp1_ldr.170908-0600)C:\Windows\system32\GDI32.dll
+		6.1.7601.23807 (win7sp1_ldr.170512-0600)C:\Windows\system32\LPK.dll
+		1.0626.7601.23894 (win7sp1_ldr.170816-0600)C:\Windows\system32\USP10.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\SHLWAPI.dll
+		6.1.7601.17887 (win7sp1_gdr.120704-0720)C:\Windows\system32\NETAPI32.dll
+		6.1.7601.17514 (win7sp1_rtm.101119-1850)C:\Windows\system32\netutils.dll
+		6.1.7601.17514 (win7sp1_rtm.101119-1850)C:\Windows\system32\srvcli.dll
+		6.1.7601.17514 (win7sp1_rtm.101119-1850)C:\Windows\system32\wkscli.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\USERENV.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\profapi.dll
+		6.1.7601.17514 (win7sp1_rtm.101119-1850)C:\Windows\system32\WTSAPI32.dll
+		6.1.7601.17514 (win7sp1_rtm.101119-1850)C:\Windows\system32\IMM32.DLL
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\MSCTF.dll
+		2, 0, 0, 1052                 D:\Program Files\360\360safe\safemon\SafeWrapper32.dll
+		6.1.7601.17514 (win7sp1_rtm.101119-1850)C:\Windows\system32\SHELL32.dll
+		8.3.0.120                     D:\Program Files\360Chrome\Chrome\Application\8.3.0.120\chrome_child.dll
+		8.00.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\WININET.dll
+		8.00.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\urlmon.dll
+		6.1.7601.23889 (win7sp1_ldr.170810-1615)C:\Windows\system32\ole32.dll
+		6.1.7601.23775                C:\Windows\system32\OLEAUT32.dll
+		6.1.7601.23769 (win7sp1_ldr.170412-0600)C:\Windows\system32\CRYPT32.dll
+		6.1.7601.17514 (win7sp1_rtm.101119-1850)C:\Windows\system32\MSASN1.dll
+		8.00.7601.18228 (win7sp1_gdr.130731-2222)C:\Windows\system32\iertutil.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\WINSPOOL.DRV
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\COMDLG32.dll
+		6.10 (win7_rtm.090713-1255)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\COMCTL32.dll
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\IPHLPAPI.DLL
+		6.1.7601.23889 (win7sp1_ldr.170810-1615)C:\Windows\system32\NSI.dll
+		6.1.7601.23889 (win7sp1_ldr.170810-1615)C:\Windows\system32\WINNSI.DLL
+		6.1.7600.16385 (win7_rtm.090713-1255)C:\Windows\system32\WS2_32.dll
+		6.1.7601.23915 (win7sp1_ldr.170913-0600)C:\Windows\system32\Secur32.dll
+		6.1.7601.23915 (win7sp1_ldr.170913-0600)C:\Windows\system32\SSPICLI.DLL
+		54, 1, 0, 0                   D:\Program Files\360Chrome\Chrome\Application\8.3.0.120\icudt.dll
+		8.3.0.120                     D:\Program Files\360Chrome\Chrome\Application\8.3.0.120\ffmpegsumo.dll
+		6.1.7601.23915 (win7sp1_ldr.170913-0600)C:\Windows\system32\cryptbase.dll
