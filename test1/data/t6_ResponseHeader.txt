@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx/1.6.3
+Date: Thu, 10 May 2018 01:19:12 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Access-Control-Allow-Origin: chrome://newtab
+Content-Encoding: gzip
+

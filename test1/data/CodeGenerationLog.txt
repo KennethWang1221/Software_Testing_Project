@@ -1,0 +1,1002 @@
+****** Start Log Message ******
+Web Recorder version : 11.0.0.8859 
+Recording Mode: HTML-based script
+Correlation is enabled system wide
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 11.0.0.8859
+
+****** Request Header For Transaction With Id 8 ******
+GET /WebTours/welcome.pl?signOff=true HTTP/1.1
+Host: 127.0.0.1:1080
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Referer: http://127.0.0.1:1080/WebTours/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+$$$$$$ Request Header For Transaction With Id 8 Ended $$$$$$
+
+****** Response Header For Transaction With Id 8 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Thu, 10 May 2018 01:18:46 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 630
+Content-type: text/html; charset=ISO-8859-1
+Date: Thu, 10 May 2018 01:18:46 GMT
+Set-cookie: MTUserInfo=; path=/; expires=Wed, 09-May-2018 01:18:46 GMT
+Set-cookie: MSO=SID&1525915126; path=/
+
+
+$$$$$$ Response Header For Transaction With Id 8 Ended $$$$$$
+
+****** Response Body For Transaction With Id 8 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border=1 frameborder=1>
+      <!-- Navigation Frame -->
+      <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 
+            noresize scrolling=auto>
+      <!-- Home Frame -->
+      <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 
+            noresize scrolling=auto>
+   </frameset>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 8 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 8 ****** (Location Flag : tFlagInsertEnd, Location ID : 8)
+	web_url("welcome.pl",
+		"URL=http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/WebTours/",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 8 Ended $$$$$$
+
+****** Request Header For Transaction With Id 10 ******
+GET /WebTours/nav.pl?in=home HTTP/1.1
+Host: 127.0.0.1:1080
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Referer: http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: MSO=SID&1525915126
+
+
+$$$$$$ Request Header For Transaction With Id 10 Ended $$$$$$
+
+****** Response Header For Transaction With Id 10 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Thu, 10 May 2018 01:18:47 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 1394
+Content-type: text/html; charset=ISO-8859-1
+Date: Thu, 10 May 2018 01:18:47 GMT
+Expires: Wed, 09 May 2018 01:18:47 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 10 Ended $$$$$$
+
+****** Response Body For Transaction With Id 10 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method=post action=login.pl target=body>
+<input type=hidden name=userSession value=123605.923531794zDfHQHQpzQVzzzzHDiVtHpiHiVf>
+<table border=0><tr><td>&nbsp;</td>
+<td>&nbsp;</td>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type=text name=username value='' size=14 maxlength=14></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type=password name=password value='' size=14 maxlength=14></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;<tr><td>
+<tr><td>&nbsp;</td>
+<td><input type=image name=login value=Login alt=Login border=1 
+src='/WebTours/images/mer_login.gif'>
+<tr><td>&nbsp;</td>
+</table><input type=hidden name=JSFormSubmit value='off'>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 10 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/welcome.pl?signOff=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 11 ******
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:1080
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: MSO=SID&1525915126
+
+
+$$$$$$ Request Header For Transaction With Id 11 Ended $$$$$$
+
+****** Response Header For Transaction With Id 11 ******
+HTTP/1.1 404 Not found
+Server: Xitami
+Date: Thu, 10 May 2018 01:18:47 GMT
+Connection: Close
+Content-length: 114
+Content-type: text/html
+
+
+$$$$$$ Response Header For Transaction With Id 11 Ended $$$$$$
+
+****** Response Body For Transaction With Id 11 ******
+<HTML><TITLE>Error</TITLE><BODY><H1>
+
+The URL you asked for does not exist on this website
+
+</H1></BODY></HTML>
+
+$$$$$$ Response Body For Transaction With Id 11 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/welcome.pl?signOff=true
+	/WebTours/nav.pl?in=home
+	Form: name= action=login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 15 ******
+POST /wdinfo.php HTTP/1.1
+Content-Type: application/octet-stream
+User-Agent: Post
+Host: qurl.f.360.cn
+Content-Length: 550
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 15 Ended $$$$$$
+
+****** Request Body For Transaction With Id 15 ******
+\x0E\x06$!\x01\x08#HZ\x84\x00\x00\x05\x00\xB85\xC6'\xF3\x1DåA@gw\xE1\xFFs\xCE>\x80åÔÑo\x1Dû∆\x00\x1E\x01\x08µπ\xA46•v\xB3>#\x07\x016T\x0B&\x15\xA3\x0C◊RY$	ti\xFE\x14∆”@DP\x8D4\x03\x1Bn#Éî\x17Òò"VT%\x08Oµd\xA8\x13¸É—ñ•√\x14h™¸:\x00ÿóW	}K√ü∆∑M¥å[|\x1BN\xBF7x‰ΩJ\\~sΩûΩÍÈq\xB27<t`43∫¯|ïú¯k\xA4.\x03„„.¨˝N\x8A\x17@\x06\x03j\x80LìÛÖ\x1BëyD`\x1DR¬ƒr@\xC9&ÚGO_o^\x03c\x86\x02\xD89\x94\x10‰X\xFB\x00~7\xA0;x\x12ëì\x15l\x1A9ûÆ≠)≤Ã„W\x03ùrîà\x1A\xEF	i˚JbÔj\x16x„q\xA34l¯∆\xE6\x07D.R„¯qMâZuv,\x89.!\x07/\x00Øôw\xEC\x1FÜ—K-Ùø\xF4:\xFF\x0C™ê¶Ùˆç≥–’Õ\x1A1\xEB\x16)\x03'aSıﬁ=E\x91\x01 Â\x0Eq\x9E\x16‹à møÙ\x9A\x1A\xAD-áttöôëü3HÈıùY>™®¿˘\\Nh`F\xE2.(øt<˚ùπSØï\x19B\x03\x0C°[¢ÒSoxäõ:ãy\x02\xC4=¸Ô\xDA\x14uaqh{Óªö´S‘ºã√2©C\x1F≈pFd\xD0/	–ù´äyâ^	öI™π3;¬¥˜Ìâ‹\x06\x83\x7F/∂F\xCE>äÆéI”Õ¶‚ñ˙æÚtn\xAB\x1D÷F`W¶L£¿<\xDF\x10\x13r`mNÈì\x02lH\x03‹WÅaƒ†uû·\xDA\x13h BqoXØ≥4Hòm2}W\x0B\xD6)Zâ∏ \x894ô¡€≤$:Æ√/\x14™“ºmbŒL\x7F\x911‘˙®Ña8ÿô\xD2/K\x17\xAC"O$—Ê\x93
+$$$$$$ Request Body For Transaction With Id 15 Ended $$$$$$
+
+****** Response Header For Transaction With Id 15 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 10 May 2018 01:18:45 GMT
+Content-Type: application/octet-stream
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache
+pragma: no-cache
+
+
+$$$$$$ Response Header For Transaction With Id 15 Ended $$$$$$
+
+****** Response Body For Transaction With Id 15 ******
+\x10\x06\x00\x01\x18S∞›\x00\x00\x05\x10!ËÙ\x80⁄w©√\xA7>®¶\x8E"\\4ó÷≥±≠s»Ä\xB8\x00K\x11Q¿H?\\≈±W∆oG¥–\x1EN\xEE6”õ5©‡“ø5√Z#\x18¿NÍ≤¿ÖÖm&v\x1B∏ƒ\x10úA\xBB6\x12\x88\x17$\x18'Snô≈|5\xFB\x04[\x01yy∞q,Hû]◊Õ\x05t\x13¿œxVpJ\x13\xFFöM\x9D>w“q†ÍÉ{T\x12\x8C\x03-<q†÷’ã\x13wô◊◊ı`\xA0\x13ÂÓ¬\xB8 @\x1C@1,∑Y¸ç\x1C\x16\xAE9)\xE3\x05,q≥∆£ôÊó!01§ye¬Çï~\x8F\x0Bâ‰\x0BdE/\xAE4s
+s\x054\xB8\x13\x1Döb\x03∂uz∂Õ¿ómSP(\xA0~”Iµ›\xE2\x14\x88\x05∏Q¬€˝\\x191\xF1\x14\x01\xB2&âD\x18ﬁÆ‘Ao\xE5\x1AƒºÅ¿#\x03\xAD,◊ª\x10\x0F®∆\x12„√É≥Öw\xE4\x0ENñÀ157\xB6\x00r4…∆\xE4:ÒqœíÊ¨◊∆\xF8>\xAD1
+\x0Fr\x11\xFE(.'G\xE4-mxÌM!
+\xD1\x07KÖB}éÅ?\x13Nßh;Göç\xEB'f\xEC\x0C\x1CX„˚ùS\xA33\xA2	÷ÿÂBeëg-‰^üøæß;Z\x13ÛíY«ú/ÈÔ\x05\xDC\x1D´à"y_\x02gDh¥ÈÇ‰≤y\x1BÅ–≥`≥æ=\xE12
+G4]v˜ÏS§GéøÃÇ™É◊Ÿ\x13\x01K•Œâ∏\xA7\x15¶ß\xF01\xD9	C\x97&»Û•«~0^øπì≤\x12æA∆≈\x0F+Qπ…\xED\x1DßÌs˜HN\xDB8\x06/§˜
+M3\x06Œröº¶Æ∞T\xFFÉ\®C2\x1A<ï¯\x16!ÆUŒÈ%\x1F\xBCX5\xE2(YmÓ∆Æ‚{ƒßL\x1DS-_YCáQ)\x16\x90\x16QÂöìô≠Ë\x80gÎe\xFFÓ¶Ì\jC—Èz\x1F(H4‰¨©é\x08ßY\x88\x18\x05u\x7F~Ã¸òAC\x8B\x0F6n\xC3\x19ê©ÂìlåS*Ôõ¡©ò∑\x0F˜‹;¶≈Fé\Ãí\xFD <7m\x05Yy\x07N¶¡ÙqÌl&
+\x19\x1D\x03A\xB7<÷≥†Qs\x17 øMT\xE32◊≈^øqììxêt\\”ÈËM\xCE\x10E?\x13;ñûø˙|p¡ä1ﬂ»DßO\x05"òp\x02Á≥âup2\xF6;\x054|\xD61\xF4\x1F0V\x1C\x11›|$©Æ∏“¡ä4Ïæàv>\xDD\x12‰¨ñ“Ç¨%·E¶u9i4Aı—ΩÂ?\x0E˙√ùM\xCA\x7F‚l\x15]∆jîK†¿\x93\x1Dﬁ≠\x11ªJx\xA4
+$$$$$$ Response Body For Transaction With Id 15 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/welcome.pl?signOff=true
+	/WebTours/nav.pl?in=home
+	Form: name= action=login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 15 ****** (Location Flag : tFlagInsertEnd, Location ID : 15)
+	web_custom_request("wdinfo.php",
+		"URL=http://qurl.f.360.cn/wdinfo.php",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=application/octet-stream",
+		"Referer=",
+		"Snapshot=t2.inf",
+		"Mode=HTML",
+		"EncType=application/octet-stream",
+		"BodyBinary=\\x0E\\x06$!\\x01\\x08#HZ\\x84\\x00\\x00\\x05\\x00\\xB85\\xC6'\\xF3\\x1DåA@gw\\xE1\\xFFs\\xCE>\\x80åÔÑo\\x1Dû∆\\x00\\x1E\\x01\\x08µπ\\xA46•v\\xB3>#\\x07\\x016T\\x0B&\\x15\\xA3\\x0C◊RY$\tti\\xFE\\x14∆”@DP\\x8D4\\x03\\x1Bn#Éî\\x17Òò\"VT%\\x08Oµd\\xA8\\x13¸É—ñ•√\\x14h™¸:\\x00ÿóW\t}K√ü∆∑M¥å[|\\x1BN\\xBF7x‰ΩJ\\\\~sΩûΩÍÈq\\xB27<t`43∫¯|ïú¯k\\xA4.\\x03„„.¨˝N\\x8A\\x17@\\x06\\x03j\\x80LìÛÖ\\x1BëyD`\\x1DR¬ƒr@\\xC9&ÚGO_o^\\x03c\\x86\\x02\\xD89\\x94\\x10‰X\\xFB\\x00~7\\xA0;x\\x12ëì\\x15l\\x1A9ûÆ≠)≤Ã\r„W\\x03ùrîà\\x1A\\xEF\ti˚JbÔj\\x16x„q\\xA34l¯∆\\xE6\\x07D.R„¯qMâZuv,\\x89.!\\x07/\\x00Øôw\\xEC\\x1FÜ—K-Ùø\\xF4:\\xFF\\x0C™ê¶Ùˆç≥–’Õ\\x1A1\\xEB\\x16)\\x03'aSıﬁ=E\\x91\\x01 Â\\x0Eq\\x9E\\x16‹à møÙ\\x9A\\x1A\\xAD-áttöôëü3HÈıùY>™®¿˘\\\\Nh`F\\xE2.(øt<˚ùπSØï\\x19B\\x03\\x0C°[¢ÒSoxäõ:ãy\\x02\\xC4=¸Ô\\xDA\\x14uaqh{Óªö´S‘ºã√2©C\\x1F≈pFd\\xD0/\t–ù´äyâ^\töI™π3;¬¥˜Ìâ‹\\x06\\x83\\x7F/∂F\\xCE>äÆéI”Õ¶‚ñ˙æÚtn\\xAB\\x1D÷F`W¶L£¿<\\xDF\\x10\\x13r`mNÈì\\x02lH\\x03‹WÅaƒ†uû·\\xDA\\x13h BqoXØ≥4Hòm2}W\\x0B\\xD6)Zâ∏ \\x894ô¡€≤$:Æ√/"
+		"\\x14™“ºmbŒL\\x7F\\x911‘˙®Ña8ÿô\\xD2/K\\x17\\xAC\"O$—Ê\\x93",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 15 Ended $$$$$$
+
+****** Request Header For Transaction With Id 22 ******
+POST /WebTours/login.pl HTTP/1.1
+Host: 127.0.0.1:1080
+Connection: keep-alive
+Content-Length: 136
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?in=home
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: MSO=SID&1525915126
+
+
+$$$$$$ Request Header For Transaction With Id 22 Ended $$$$$$
+
+****** Request Body For Transaction With Id 22 ******
+userSession=123605.923531794zDfHQHQpzQVzzzzHDiVtHpiHiVf&username=jojojo&password=bean&login.x=82&login.y=17&login=Login&JSFormSubmit=off
+$$$$$$ Request Body For Transaction With Id 22 Ended $$$$$$
+
+****** Response Header For Transaction With Id 22 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Thu, 10 May 2018 01:19:00 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 410
+Content-type: text/html; charset=ISO-8859-1
+Date: Thu, 10 May 2018 01:19:00 GMT
+Expires: 5s
+
+
+$$$$$$ Response Header For Transaction With Id 22 Ended $$$$$$
+
+****** Response Body For Transaction With Id 22 ******
+<!--
+User password was incorrect.  Prompt the user to fix password or sign-up...
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src=nav.pl?username=jojojo&password=bean name=navbar marginheight=2 marginwidth=2 noresize scrolling=auto>
+<frame src=error.pl?error=badPassword name=info marginheight=2 marginwidth=2 noresize scrolling=auto>
+</frameset>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 22 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/wdinfo.php
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 22 ****** (Location Flag : tFlagInsertEnd, Location ID : 22)
+	web_submit_data("login.pl",
+		"Action=http://127.0.0.1:1080/WebTours/login.pl",
+		"Method=POST",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/WebTours/nav.pl?in=home",
+		"Snapshot=t3.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=userSession", "Value=123605.923531794zDfHQHQpzQVzzzzHDiVtHpiHiVf", ENDITEM,
+		"Name=username", "Value=jojojo", ENDITEM,
+		"Name=password", "Value=bean", ENDITEM,
+		"Name=login.x", "Value=82", ENDITEM,
+		"Name=login.y", "Value=17", ENDITEM,
+		"Name=login", "Value=Login", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 22 Ended $$$$$$
+
+****** Request Header For Transaction With Id 23 ******
+GET /WebTours/nav.pl?username=jojojo&password=bean HTTP/1.1
+Host: 127.0.0.1:1080
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Referer: http://127.0.0.1:1080/WebTours/login.pl
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: MSO=SID&1525915126
+
+
+$$$$$$ Request Header For Transaction With Id 23 Ended $$$$$$
+
+****** Response Header For Transaction With Id 23 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Thu, 10 May 2018 01:19:00 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 1404
+Content-type: text/html; charset=ISO-8859-1
+Date: Thu, 10 May 2018 01:19:00 GMT
+Expires: Wed, 09 May 2018 01:19:00 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 23 Ended $$$$$$
+
+****** Response Body For Transaction With Id 23 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method=post action=login.pl target=body>
+<input type=hidden name=userSession value=123605.923531794zDfHQHQpzQVzzzzHDiVtHpiHiVf>
+<table border=0><tr><td>&nbsp;</td>
+<td>&nbsp;</td>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type=text name=username value='jojojo' size=14 maxlength=14></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type=password name=password value='bean' size=14 maxlength=14></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;<tr><td>
+<tr><td>&nbsp;</td>
+<td><input type=image name=login value=Login alt=Login border=1 
+src='/WebTours/images/mer_login.gif'>
+<tr><td>&nbsp;</td>
+</table><input type=hidden name=JSFormSubmit value='off'>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 23 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 26 ******
+GET /WebTours/error.pl?error=badPassword HTTP/1.1
+Host: 127.0.0.1:1080
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Referer: http://127.0.0.1:1080/WebTours/login.pl
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: MSO=SID&1525915126
+
+
+$$$$$$ Request Header For Transaction With Id 26 Ended $$$$$$
+
+****** Response Header For Transaction With Id 26 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Thu, 10 May 2018 01:19:03 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 1030
+Content-type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 26 Ended $$$$$$
+
+****** Response Body For Transaction With Id 26 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Error - Incorrect Password</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #003366}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}</style><BR><BR><h1>&nbsp;&nbsp;<b>Error</b></h1><blockquote><center><h3><font color=red>Web Tours Error - Incorrect Password</font></h3></center><blockquote>
+The username/password combination you've entered is invalid.  
+ Please double check your entry.  If it still does not work, you might 
+ need to re-register with our site. <p /> Thank you for your patience.
+</blockquote>
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 26 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/login.pl
+	/WebTours/nav.pl?username=jojojo&password=bean
+	Form: name= action=login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 28 ******
+POST /WebTours/login.pl HTTP/1.1
+Host: 127.0.0.1:1080
+Connection: keep-alive
+Content-Length: 134
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?username=jojojo&password=bean
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: MSO=SID&1525915126
+
+
+$$$$$$ Request Header For Transaction With Id 28 Ended $$$$$$
+
+****** Request Body For Transaction With Id 28 ******
+userSession=123605.923531794zDfHQHQpzQVzzzzHDiVtHpiHiVf&username=jojo&password=bean&login.x=46&login.y=16&login=Login&JSFormSubmit=off
+$$$$$$ Request Body For Transaction With Id 28 Ended $$$$$$
+
+****** Response Header For Transaction With Id 28 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Thu, 10 May 2018 01:19:12 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 437
+Content-type: text/html; charset=ISO-8859-1
+Date: Thu, 10 May 2018 01:19:12 GMT
+Expires: 5s
+Set-cookie: MTUserInfo=firstName&Joseph&address2&San%20Jose%2FCA%2F94085&username&jojo&hash&47&lastName&Marshall%0A&address1&234%20Willow%20Drive&creditCard&&expDate&%0A; path=/
+
+
+$$$$$$ Response Header For Transaction With Id 28 Ended $$$$$$
+
+****** Response Body For Transaction With Id 28 ******
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src=nav.pl?page=menu&in=home name=navbar marginheight=2 marginwidth=2 noresize scrolling=auto>
+<frame src=login.pl?intro=true name=info marginheight=2 marginwidth=2 noresize scrolling=auto>
+</frameset>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 28 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/login.pl
+	/WebTours/nav.pl?username=jojojo&password=bean
+	Form: name= action=login.pl
+	/WebTours/error.pl?error=badPassword
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 28 ****** (Location Flag : tFlagInsertEnd, Location ID : 28)
+	web_submit_data("login.pl_2",
+		"Action=http://127.0.0.1:1080/WebTours/login.pl",
+		"Method=POST",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/WebTours/nav.pl?username=jojojo&password=bean",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=userSession", "Value=123605.923531794zDfHQHQpzQVzzzzHDiVtHpiHiVf", ENDITEM,
+		"Name=username", "Value=jojo", ENDITEM,
+		"Name=password", "Value=bean", ENDITEM,
+		"Name=login.x", "Value=46", ENDITEM,
+		"Name=login.y", "Value=16", ENDITEM,
+		"Name=login", "Value=Login", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 28 Ended $$$$$$
+
+****** Request Header For Transaction With Id 29 ******
+GET /WebTours/nav.pl?page=menu&in=home HTTP/1.1
+Host: 127.0.0.1:1080
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Referer: http://127.0.0.1:1080/WebTours/login.pl
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: MSO=SID&1525915126; MTUserInfo=firstName&Joseph&address2&San%20Jose%2FCA%2F94085&username&jojo&hash&47&lastName&Marshall%0A&address1&234%20Willow%20Drive&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 29 Ended $$$$$$
+
+****** Response Header For Transaction With Id 29 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Thu, 10 May 2018 01:19:12 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 1446
+Content-type: text/html; charset=ISO-8859-1
+Date: Thu, 10 May 2018 01:19:12 GMT
+Expires: Wed, 09 May 2018 01:19:12 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 29 Ended $$$$$$
+
+****** Response Body For Transaction With Id 29 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/flights.gif 
+ALT="Search Flights Button"></A>
+<br clear><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/itinerary.gif 
+ALT="Itinerary Button"></A>
+<br clear><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/in_home.gif 
+ALT="Home Button"></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/signoff.gif 
+ALT="SignOff Button"></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 29 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/WebTours/login.pl
+	The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 30 ******
+GET /WebTours/login.pl?intro=true HTTP/1.1
+Host: 127.0.0.1:1080
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Referer: http://127.0.0.1:1080/WebTours/login.pl
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: MSO=SID&1525915126; MTUserInfo=firstName&Joseph&address2&San%20Jose%2FCA%2F94085&username&jojo&hash&47&lastName&Marshall%0A&address1&234%20Willow%20Drive&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 30 Ended $$$$$$
+
+****** Response Header For Transaction With Id 30 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Thu, 10 May 2018 01:19:12 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 912
+Content-type: text/html; charset=ISO-8859-1
+Date: Thu, 10 May 2018 01:19:12 GMT
+Expires: 5s
+
+
+$$$$$$ Response Header For Transaction With Id 30 Ended $$$$$$
+
+****** Response Body For Transaction With Id 30 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Welcome to Web Tours</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR><BR><BR><BR><BR><blockquote>Welcome, <b>jojo</b>, to the Web Tours reservation pages.<BR>Using the menu to the left, you can search for new flights to book, 
+or review/edit the flights already booked.  Don't forget to sign off when
+you're done!
+</blockquote>
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 30 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/WebTours/login.pl
+		/WebTours/nav.pl?page=menu&in=home
+	The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 33 ******
+POST /index.php HTTP/1.1
+Host: site.browser.360.cn
+Connection: keep-alive
+Content-Length: 250
+Content-Type: multipart/form-data; boundary=---------------------------7dd8835af39e14
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 QIHU 360EE
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8
+
+
+$$$$$$ Request Header For Transaction With Id 33 Ended $$$$$$
+
+****** Request Body For Transaction With Id 33 ******
+-----------------------------7dd8835af39e14
+Content-Disposition: form-data; name="rn"
+
+350700
+-----------------------------7dd8835af39e14
+Content-Disposition: form-data; name="sitedata"
+
+68170105071e031b0019010a020508071f6756576458454240176d
+
+$$$$$$ Request Body For Transaction With Id 33 Ended $$$$$$
+
+****** Response Header For Transaction With Id 33 ******
+HTTP/1.1 200 OK
+Server: nginx/1.6.3
+Date: Thu, 10 May 2018 01:19:12 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Access-Control-Allow-Origin: chrome://newtab
+Content-Encoding: gzip
+
+
+$$$$$$ Response Header For Transaction With Id 33 Ended $$$$$$
+
+****** Response Body For Transaction With Id 33 ******
+{"errno":0,"data":[{"title":"","logo":"","hash":""}],"rn":351060}
+$$$$$$ Response Body For Transaction With Id 33 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/WebTours/login.pl
+		/WebTours/nav.pl?page=menu&in=home
+		/WebTours/login.pl?intro=true
+	The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 33 ****** (Location Flag : tFlagInsertEnd, Location ID : 33)
+	web_submit_data("index.php",
+		"Action=http://site.browser.360.cn/index.php",
+		"Method=POST",
+		"EncType=multipart/form-data",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t5.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=rn", "Value=350700", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 33 Ended $$$$$$
+
+****** Request Header For Transaction With Id 37 ******
+POST /index.php HTTP/1.1
+Host: site.browser.360.cn
+Connection: keep-alive
+Content-Length: 230
+Content-Type: multipart/form-data; boundary=---------------------------7ddad45af39e14
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 QIHU 360EE
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8
+
+
+$$$$$$ Request Header For Transaction With Id 37 Ended $$$$$$
+
+****** Request Body For Transaction With Id 37 ******
+-----------------------------7ddad45af39e14
+Content-Disposition: form-data; name="rn"
+
+711160
+-----------------------------7ddad45af39e14
+Content-Disposition: form-data; name="sitedata"
+
+6c130006041e06071f03030019001e136b
+
+$$$$$$ Request Body For Transaction With Id 37 Ended $$$$$$
+
+****** Response Header For Transaction With Id 37 ******
+HTTP/1.1 200 OK
+Server: nginx/1.6.3
+Date: Thu, 10 May 2018 01:19:12 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Access-Control-Allow-Origin: chrome://newtab
+Content-Encoding: gzip
+
+
+$$$$$$ Response Header For Transaction With Id 37 Ended $$$$$$
+
+****** Response Body For Transaction With Id 37 ******
+{"errno":0,"data":[{"title":"","logo":"","hash":""}],"rn":711520}
+$$$$$$ Response Body For Transaction With Id 37 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/index.php
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 37 ****** (Location Flag : tFlagInsertEnd, Location ID : 37)
+	web_submit_data("index.php_2",
+		"Action=http://site.browser.360.cn/index.php",
+		"Method=POST",
+		"EncType=multipart/form-data",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t6.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=rn", "Value=711160", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 37 Ended $$$$$$
+
+****** Request Header For Transaction With Id 40 ******
+GET /WebTours/welcome.pl?signOff=1 HTTP/1.1
+Host: 127.0.0.1:1080
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: MSO=SID&1525915126; MTUserInfo=firstName&Joseph&address2&San%20Jose%2FCA%2F94085&username&jojo&hash&47&lastName&Marshall%0A&address1&234%20Willow%20Drive&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 40 Ended $$$$$$
+
+****** Response Header For Transaction With Id 40 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Thu, 10 May 2018 01:19:20 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 630
+Content-type: text/html; charset=ISO-8859-1
+Date: Thu, 10 May 2018 01:19:19 GMT
+Set-cookie: MTUserInfo=; path=/; expires=Wed, 09-May-2018 01:19:19 GMT
+Set-cookie: MSO=SID&1525915159; path=/
+
+
+$$$$$$ Response Header For Transaction With Id 40 Ended $$$$$$
+
+****** Response Body For Transaction With Id 40 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border=1 frameborder=1>
+      <!-- Navigation Frame -->
+      <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 
+            noresize scrolling=auto>
+      <!-- Home Frame -->
+      <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 
+            noresize scrolling=auto>
+   </frameset>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 40 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/index.php
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 40 ****** (Location Flag : tFlagInsertEnd, Location ID : 40)
+	web_url("welcome.pl_2",
+		"URL=http://127.0.0.1:1080/WebTours/welcome.pl?signOff=1",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home",
+		"Snapshot=t7.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 40 Ended $$$$$$
+
+****** Request Header For Transaction With Id 41 ******
+GET /WebTours/nav.pl?in=home HTTP/1.1
+Host: 127.0.0.1:1080
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Referer: http://127.0.0.1:1080/WebTours/welcome.pl?signOff=1
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: MSO=SID&1525915159
+
+
+$$$$$$ Request Header For Transaction With Id 41 Ended $$$$$$
+
+****** Response Header For Transaction With Id 41 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Thu, 10 May 2018 01:19:20 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 1395
+Content-type: text/html; charset=ISO-8859-1
+Date: Thu, 10 May 2018 01:19:20 GMT
+Expires: Wed, 09 May 2018 01:19:20 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 41 Ended $$$$$$
+
+****** Response Body For Transaction With Id 41 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method=post action=login.pl target=body>
+<input type=hidden name=userSession value=123605.926204941zDfHQHQpicQVzzzHDiVtHpiHiQHf>
+<table border=0><tr><td>&nbsp;</td>
+<td>&nbsp;</td>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type=text name=username value='' size=14 maxlength=14></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type=password name=password value='' size=14 maxlength=14></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;<tr><td>
+<tr><td>&nbsp;</td>
+<td><input type=image name=login value=Login alt=Login border=1 
+src='/WebTours/images/mer_login.gif'>
+<tr><td>&nbsp;</td>
+</table><input type=hidden name=JSFormSubmit value='off'>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 41 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/welcome.pl?signOff=1
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
